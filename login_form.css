@@ -30,12 +30,14 @@ html, body{
   font-weight: 600;
   margin: 20px 0 10px 0;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .container form .title:before{
   content: '';
   position: absolute;
   height: 4px;
-  width: 143px;
+  /* width: 245px; */
   left: 0px;
   bottom: 3px;
   border-radius: 5px;
@@ -98,4 +100,28 @@ html, body{
 .container .option{
   font-size: 14px;
   text-align: center;
+}
+.container form .pass-link{
+  margin-top: 25px;
+}
+.container .row{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+.container .row input{
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
 }
