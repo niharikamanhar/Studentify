@@ -17,33 +17,33 @@
     </div>
       <ul class="nav-links">
         <li>
-          <a href="#" class="active">
+          <a href="#">
             <i class='bx bx-grid-alt' ></i>
-            <span class="links_name">Home</span>
+            <span class="links_name" onClick="location.href='dashboard.html'">Home</span>
           </a>
         </li>
         <li>
           <a href="#">
             <i class='bx bx-box' ></i>
-            <span class="links_name">Personal Details</span>
+            <span class="links_name" onClick="location.href='personal_page.html'">Personal Details</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name" onClick="location.href='academic_page.html'">Academic Info</span>
           </a>
         </li>
         <li>
           <a href="#">
             <i class='bx bx-list-ul' ></i>
-            <span class="links_name">Academic Info</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class='bx bx-list-ul' ></i>
-            <span class="links_name">Courses Registered</span>
+            <span class="links_name" onClick="location.href='courses_registered.html'">Courses Registered</span>
           </a>
         </li>
         <li class="log_out">
           <a href="#">
             <i class='bx bx-log-out'></i>
-            <span class="links_name">Log out</span>
+            <span class="links_name" onClick="location.href='login.html'">Log out</span>
           </a>
         </li>
       </ul>
@@ -102,7 +102,7 @@
     </div>
   </section>
 
-  <script>
+  <!-- <script>
    let sidebar = document.querySelector(".sidebar");
 let sidebarBtn = document.querySelector(".sidebarBtn");
 sidebarBtn.onclick = function() {
@@ -112,7 +112,7 @@ sidebarBtn.onclick = function() {
 }else
   sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
 }
- </script>
+ </script> -->
 
 </body>
 </html>
