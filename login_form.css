@@ -37,7 +37,6 @@ html, body{
   content: '';
   position: absolute;
   height: 4px;
-  /* width: 245px; */
   left: 0px;
   bottom: 3px;
   border-radius: 5px;
