@@ -4,7 +4,7 @@ Website to manage Student Information.
 
 ## Project Setup
 1. Clone the repository </br>
-`git clone https://github.com/niharikamanhar/Studentify.git
+`git clone https://github.com/niharikamanhar/Studentify.git`
 2. open login file from folder. </br>
 
 ## Languages used
