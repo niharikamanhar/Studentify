@@ -13,7 +13,7 @@ Website to manage Student Information.
 - JavaScript
 
 ## Collaborators
-- Nitya Anand Shah (B20CS039) | Sophomore
+- Nitya Anand Shah (B20CS039)
 - Niharika Manhar (B20CS038)
 
 
